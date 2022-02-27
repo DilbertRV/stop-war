@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;600&display=swap");
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.text {
+  position: absolute;
+  top: 24vh;
+}
+
+.text h1 {
+  font-size: 15em;
+  text-align: center;
+  color: white;
+  margin: 0;
+  z-index: 1;
+  font-family: "Noto Serif Display", serif;
+  font-weight: 600;
+}
+
+.object {
+  width: 100%;
+  margin-top: 90px;
+}
+
+canvas {
+  width: auto;
+}
+
+p {
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+  font-family: "Noto Serif Display", serif;
+  font-size: 0.8em;
+  color: white;
+  text-decoration-style: none;
+  border-top: 1px solid white;
+}
+
+@media screen and (max-width: 768px) {
+  .text h1 {
+    font-size: 8em;
+  }
+}
