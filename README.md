@@ -3,7 +3,7 @@
 Responsive landing page using React.js, with Three Fiber Js, &  drei for the 3D Model. 
 
 <p>
-    <img src="https://i.imgur.com/XzR8muH.png" width="500" height="500" />
+    <img src="https://i.imgur.com/XzR8muH.png" width="400" height="350" />
 </p>
 
 # Credits
